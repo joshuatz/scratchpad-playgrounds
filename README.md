@@ -43,12 +43,20 @@ Platform & Link | Hosted | Notes
 --- | --- | ---
 [repl.it](https://repl.it/languages/javascript) | Online | Executes with Node
 [CodeSandbox](https://codesandbox.io/s/vanilla) | Online | Includes HTML
+[StackBlitz](https://stackblitz.com/fork/js) | Online | Includes HTML, mixes NodeJS
 [Chrome DevTools - Snippets](https://developers.google.com/web/tools/chrome-devtools/javascript/snippets) | Local | If you simply need to test a bit of JS, why not try using your web browser?! Chrome has support for "snippets", which are single file JS scratchpads which are saved and managed by the browser. Or you can always copy and paste into the browser console!
 [Firefox DevTools - Scratchpad](https://developer.mozilla.org/en-US/docs/Tools/Scratchpad) | Local | You can press Shift + F4 to bring up a temporary JS scratchpad!<br><br> > Warning: This will be deprecated soon.
 
 ## JavaScript - NodeJS Flavored
+
+> Quick disclaimer: A lot of online sandboxes will mix together NodeJS environments (think `__dirname`) and web environments (think `document.location`). For example, Glitch will allow you to add a package.json file and start using NodeJS packages with JS, while also mixing in static HTML + vanilla JS serving. The boundaries between the two systems are not always clearly defined...
+
 Platform & Link | Hosted | Notes
 --- | --- | ---
+[repl.it](https://repl.it/languages/nodejs) | Online | NA
+[CodeSandbox](https://codesandbox.io/s/node) | Online | NA
+[StackBlitz](https://stackblitz.com/fork/js) | Online | This is really just their "JS" starter, but it uses NodeJS to execute
+[Glitch](https://glitch.com/edit/#!/remix/hello-express) | Online | NA
 CLI | Local | There are multiple ways you can quickly test JS, or NodeJS flavored JS, locally and with a standard NodeJS install.<br><br>See "NodeJS - Quick Options" below.
 
 ### NodeJS - Quick Options
@@ -69,7 +77,7 @@ There are tons of ways you can quickly write and execute bits of JS with a local
 ## TypeScript
 Platform & Link | Hosted | Notes
 --- | --- | ---
-[typescriptlang.org/play](https://www.typescriptlang.org/play/) | Online | Instance TS -> JS transpile
+[typescriptlang.org/play](https://www.typescriptlang.org/play/) | Online | Instant TS -> JS transpile
 [repl.it](https://repl.it/languages/typescript) | Online | Executes with Node
 [CodeSandbox](https://codesandbox.io/s/vanilla-ts) | Online | Includes HTML
 [StackBlitz](https://stackblitz.com/fork/typescript) | Online | NA
@@ -87,14 +95,14 @@ Platform & Link | Hosted | Notes
 ### React
 Platform & Link | Notes
 --- | ---
-[repl.it](https://repl.it/languages/reactjs) | JS
-[repl.it](https://repl.it/languages/reactts) | TS
-[CodeSandbox](https://codesandbox.io/s/new) | JS
-[CodeSandbox](https://codesandbox.io/s/react-ts) | TS
-[StackBlitz](https://stackblitz.com/fork/react) | JS
+[repl.it](https://repl.it/languages/reactjs) | JavaScript
+[repl.it](https://repl.it/languages/reactts) | TypeScript
+[CodeSandbox](https://codesandbox.io/s/new) | JavaScript
+[CodeSandbox](https://codesandbox.io/s/react-ts) | TypeScript
+[StackBlitz](https://stackblitz.com/fork/react) | JavaScript
 
 ### Vue
 Platform & Link | Notes
 --- | ---
-[CodeSandbox](https://codesandbox.io/s/vue) | JS
-[CodeSandbox](https://github.com/codesandbox/codesandbox-templates/tree/master/packages/client/vue-typescript-template) | TS - I think this needs fixes...
+[CodeSandbox](https://codesandbox.io/s/vue) | JavaScript
+[CodeSandbox](https://github.com/codesandbox/codesandbox-templates/tree/master/packages/client/vue-typescript-template) | TypeScript - I think this needs fixes...
