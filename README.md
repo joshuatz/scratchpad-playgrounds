@@ -74,6 +74,44 @@ There are tons of ways you can quickly write and execute bits of JS with a local
 	 - CLI: `echo console.log("in txt file"); > test.txt && less -FX test.txt | node -p`
  - ... and many more methods!
 
+## C++
+Platform & Link | Hosted | Notes
+--- | --- | ---
+[repl.it](https://repl.it/languages/cpp) | Online | NA
+[OnlineGDB](https://www.onlinegdb.com/online_c++_compiler) | Online | NA
+[paiza.io](https://paiza.io/en/projects/new?language=cpp) | Online | NA
+[RCRL](https://github.com/onqtam/rcrl) | Local | Cross-Platform
+[Cling](https://root.cern.ch/cling) | Local | Unix
+
+## Python
+Platform & Link | Hosted | Notes
+--- | --- | ---
+[repl.it](https://repl.it/languages/python3) | Online | NA
+[python.org shell](https://www.python.org/shell/) | Online | REPL mode only
+[OnlineGDB](https://www.onlinegdb.com/online_python_compiler) | Online | NA
+[paiza.io](https://paiza.io/en/projects/new?language=python3) | Online | NA
+[trinket.io](https://trinket.io/python) | Online | Shareable, multi-file support. Similar to Glitch.
+CLI | Local | There are many options for executing bits of Python locally, similar to NodeJS, which I'll explore below.
+
+### Python - Quick Options
+This is a really good writeup of quick local execution options - [from realpython.com](https://realpython.com/interacting-with-python/).
+
+Here is an additional summary of some options:
+ - Use the Python interpreter binary as a REPL
+	 - Either launch the binary, or call it via the registered path.
+		 - On Windows, this means either launching `python.exe`, or from the Command Prompt, type `python` and hit enter
+		 - You can end a line with `\` or `;\` to start a multiline entry
+ - Execute a file containing Python with the interpreter:
+	 - `python {filename}`
+	 - The file does not have to end in `.py` extension
+ - Use *IDLE*, the slim editor/shell combo that ships with Python
+	 - It usually comes bundled with the Python installer
+	 - You can use it in shell mode (like REPL), or write actual files
+ - Use built-in IDE tools or extensions:
+	 - [VSCode](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
+	 - [Visual Studio](https://docs.microsoft.com/en-us/visualstudio/python/python-interactive-repl-in-visual-studio)
+
+
 ## TypeScript
 Platform & Link | Hosted | Notes
 --- | --- | ---
