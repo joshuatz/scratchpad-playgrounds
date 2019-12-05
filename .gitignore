@@ -1,0 +1,3 @@
+playgrounds/.env
+playgrounds/**/src/**
+.vscode/settings.json
