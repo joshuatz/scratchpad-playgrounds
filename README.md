@@ -10,7 +10,7 @@ I wanted to put this together because of the number of times when I've needed a 
 PRs are welcome! However, no *unnecessary* self-promotion, and for adding links, please strip off tracking parameters and keep clean.
 
 ## Future thoughts:
-In the future, I think it would be neat if this repo contained actual subdirectories with a scaffolding system. So you could clone the repo, and then to scaffold a playground / workspace for any given language framework, all you would have to do is either run a top-level CLI command, like `setup nodejs`, or navigate to the directory and run `npm run init`. Something like that. Might require a lot of scripting for advanced workspaces, like a WordPress env for theme testing.
+In the future, I think it would be neat if this repo contained actual subdirectories with a scaffolding system. So you could clone the repo, and then to scaffold a playground / workspace for any given language framework, all you would have to do is either run a top-level CLI command, like `setup nodejs`, or navigate to the directory and run `npm run init`. Something like that.
 
 ---
 
@@ -144,3 +144,11 @@ Platform & Link | Notes
 --- | ---
 [CodeSandbox](https://codesandbox.io/s/vue) | JavaScript
 [CodeSandbox](https://github.com/codesandbox/codesandbox-templates/tree/master/packages/client/vue-typescript-template) | TypeScript - I think this needs fixes...
+
+## CMS
+### Wordpress
+```sh
+cd playgrounds
+docker-compose -f wordpress/docker-compose.yml up -d
+```
+ > Code directory will be auto-created in `playgrounds/wordpress/src`, which you can edit.
