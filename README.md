@@ -26,6 +26,7 @@ repl.it | [repl.it - Templates](https://repl.it/templates) | User-submitted temp
 glitch | [glitch - hello worlds](https://glitch.com/@glitch/hello-worlds) | Various starter templates
 CodeSandbox | [New Sandbox](https://codesandbox.io/s/) | Start with a template
 CodeSandbox | [Template repo](https://github.com/codesandbox/codesandbox-templates) | The official CodeSandbox repo for templates. You can use this, or ***any*** public repo as a template source!
+Katacoda | [Playgrounds](https://www.katacoda.com/learn#playgrounds) | Many different temporary playgrounds to fiddle around in.
 
 
 # Languages
@@ -57,6 +58,8 @@ Platform & Link | Hosted | Notes
 [CodeSandbox](https://codesandbox.io/s/node) | Online | NA
 [StackBlitz](https://stackblitz.com/fork/js) | Online | This is really just their "JS" starter, but it uses NodeJS to execute
 [Glitch](https://glitch.com/edit/#!/remix/hello-express) | Online | NA
+[Runkit](https://npm.runkit.com) | Online | Limited, meant for testing a single NPM package at a time.
+[Katacoda](https://www.katacoda.com/courses/nodejs/playground) | Online | Very limited.
 CLI | Local | There are multiple ways you can quickly test JS, or NodeJS flavored JS, locally and with a standard NodeJS install.<br><br>See "NodeJS - Quick Options" below.
 
 ### NodeJS - Quick Options
