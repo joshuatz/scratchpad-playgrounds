@@ -24,6 +24,7 @@ Host | Link | Notes
 repl.it | [repl.it - Languages](https://repl.it/languages) | Create a repl based on language, framework, and more!
 repl.it | [repl.it - Templates](https://repl.it/templates) | User-submitted templates
 glitch | [glitch - hello worlds](https://glitch.com/@glitch/hello-worlds) | Various starter templates
+glitch | [glitch - starters](https://glitch.com/create#:~:text=Starters) | Various starter templates
 CodeSandbox | [New Sandbox](https://codesandbox.io/s/) | Start with a template
 CodeSandbox | [Template repo](https://github.com/codesandbox/codesandbox-templates) | The official CodeSandbox repo for templates. You can use this, or ***any*** public repo as a template source!
 Katacoda | [Playgrounds](https://www.katacoda.com/learn#playgrounds) | Many different temporary playgrounds to fiddle around in.
@@ -141,6 +142,7 @@ Platform & Link | Notes
 [CodeSandbox](https://codesandbox.io/s/new) | JavaScript
 [CodeSandbox](https://codesandbox.io/s/react-ts) | TypeScript
 [StackBlitz](https://stackblitz.com/fork/react) | JavaScript
+[glitch](https://glitch.com/edit/#!/remix/starter-react) | JavaScript
 
 ### Vue
 Platform & Link | Notes
