@@ -28,7 +28,12 @@ glitch | [glitch - hello worlds](https://glitch.com/@glitch/hello-worlds) | Vari
 glitch | [glitch - starters](https://glitch.com/create#:~:text=Starters) | Various starter templates
 CodeSandbox | [New Sandbox](https://codesandbox.io/s/) | Start with a template
 CodeSandbox | [Template repo](https://github.com/codesandbox/codesandbox-templates) | The official CodeSandbox repo for templates. You can use this, or ***any*** public repo as a template source!
-Katacoda | [Playgrounds](https://www.katacoda.com/learn#playgrounds) | Many different temporary playgrounds to fiddle around in.
+
+Options that have been retired:
+
+Name & Link | What | Date Retired
+--- | --- | ---
+[Katacoda](https://www.katacoda.com/learn#playgrounds) | Dozens of different playground types, including NodeJS, Dotnet, and more. | June 15th, 2022
 
 ---
 
@@ -62,8 +67,6 @@ Platform & Link | Hosted | Notes
 [StackBlitz](https://stackblitz.com/fork/js) | Online | This is really just their "JS" starter, but it uses NodeJS to execute
 [Glitch](https://glitch.com/edit/#!/remix/hello-express) | Online | NA
 [Runkit](https://npm.runkit.com) | Online | Limited, meant for testing a single NPM package at a time.
-[Katacoda](https://www.katacoda.com/courses/nodejs/playground) | Online | Very limited.
-CLI | Local | There are multiple ways you can quickly test JS, or NodeJS flavored JS, locally and with a standard NodeJS install.<br><br>See "NodeJS - Quick Options" below.
 
 #### NodeJS - Quick Options
 There are tons of ways you can quickly write and execute bits of JS with a locally installed version of NodeJS. I've written up a longer summary [in this post](https://joshuatz.com/posts/2019/nodejs-interacting-on-cmd-line-shell-without-creating-a-js-file/), but here are some bullet points:
