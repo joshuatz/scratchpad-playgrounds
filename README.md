@@ -96,6 +96,7 @@ Platform & Link | Hosted | Notes
 Platform & Link | Hosted | Notes
 --- | --- | ---
 [replit](https://replit.com/languages/python3) | Online | NA
+[CodeSandbox](https://codesandbox.io/p/sandbox/python-starter-in2qez) | Online | NA
 [python.org shell](https://www.python.org/shell/) | Online | REPL mode only
 [OnlineGDB](https://www.onlinegdb.com/online_python_compiler) | Online | NA
 [paiza.io](https://paiza.io/en/projects/new?language=python3) | Online | NA
